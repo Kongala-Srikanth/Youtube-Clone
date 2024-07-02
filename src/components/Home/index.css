@@ -1,0 +1,111 @@
+
+
+.side-bar-container {
+  display: none;
+}
+
+.fixed-position {
+  height: 100vh;
+  overflow: auto;
+  padding-top: 50px;
+}
+
+.hide-btn {
+  background-color: transparent;
+  padding: 0px;
+  margin: 0px;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+  font-size: 22px;
+  align-self: flex-start;
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.ads-btn {
+  background-color: transparent;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-weight: 500;
+  border: 2px solid #000000;
+  outline: none;
+  cursor: pointer;
+}
+
+.ads-img {
+  height: 35px;
+}
+
+.ads-description {
+  font-size: 22px;
+}
+
+.ads-content {
+  width: 50%;
+}
+
+.search-btn {
+  background-color: transparent;
+  padding: 0px;
+  margin: 0px;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+}
+
+.search-icon {
+  color: #868182;
+  font-size: 18px;
+}
+
+.no-data-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.no-data {
+  width: 50%;
+}
+
+.retry-btn {
+  color: #ffffff;
+  background-color: #4a47e0;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 7px;
+}
+
+@media (min-width: 768px) {
+  .all-videos-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main-container {
+    display: flex;
+  }
+
+  .side-bar-container {
+    display: block;
+  }
+}

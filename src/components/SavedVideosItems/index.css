@@ -1,0 +1,76 @@
+.thumbnail-img-trending {
+  width: 50%;
+  height: 170px;
+  margin-top: 25px;
+}
+
+.trending-channel-img {
+  height: 55px;
+  margin-top: 15px;
+}
+
+.each-video-container-gaming {
+  display: flex;
+}
+
+.video-details-container-trending {
+  display: flex;
+  align-items: flex-start;
+}
+
+.video-details {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.published-date-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.view-count {
+  margin-right: 30px;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #4c5a6d;
+  font-weight: 500;
+}
+
+.descripton-details {
+  margin-left: 15px;
+}
+
+.channel-name {
+  margin-right: 30px;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #4c5a6d;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .each-video-container-trending {
+    display: flex;
+    width: 100%;
+    margin: 10px 10px;
+  }
+
+  .channel-name {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .trending-channel-img {
+    display: none;
+  }
+
+  .video-details-container-trending {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .thumbnail-img-trending {
+    width: 50%;
+    height: 270px;
+  }
+}

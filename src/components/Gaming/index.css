@@ -1,0 +1,16 @@
+.all-gaming-videos-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .sm-device {
+    display: none;
+  }
+
+  .fixed-position-trending {
+    height: 100vh;
+    overflow: auto;
+    padding-top: 30px;
+  }
+}

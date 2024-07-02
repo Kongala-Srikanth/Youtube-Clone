@@ -1,0 +1,84 @@
+.video-player-sm {
+  display: block;
+}
+
+.video-player-lg {
+  display: none;
+}
+
+.like-icons-container {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.like-icons-size {
+  font-size: 22px;
+  margin-right: 5px;
+}
+
+.channel-logo {
+  height: 50px;
+  margin-left: 15px;
+}
+
+.channel-data-container {
+  display: flex;
+  align-items: center;
+}
+
+channel-name-container {
+  display: flex;
+}
+
+.like-text {
+  font-size: 18px;
+  margin-left: 5px;
+  margin-right: 35px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  color: #65717f;
+  font-weight: 500;
+}
+
+.like-icons {
+  color: #65717f;
+  font-size: 25px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.each-video-details-container {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #65717f8d;
+  margin: 15px;
+}
+
+.views-count {
+  color: #65717f;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px 7px;
+}
+
+.view-count-container {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .video-player-sm {
+    display: none;
+  }
+
+  .video-player-lg {
+    display: block;
+  }
+}

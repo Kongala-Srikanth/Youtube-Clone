@@ -1,0 +1,76 @@
+.side-bar-options {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+  margin: 0px;
+  padding: 0px;
+  padding-right: 100px;
+  color: #616060;
+  font-weight: 500;
+  font-size: 17px;
+  width: 100%;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 65vh;
+  padding-left: 20px;
+}
+
+.social-icons {
+  height: 35px;
+  margin: 15px 7px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.side-icons {
+  font-size: 19px;
+  margin: 10px 25px;
+}
+
+.home {
+  font-weight: 600;
+  background-color: #f1f5f9;
+}
+
+.trending {
+  font-weight: 600;
+  background-color: #f1f5f9;
+}
+
+.saved-video {
+  font-weight: 600;
+  background-color: #f1f5f9;
+}
+
+.gaming {
+  font-weight: 600;
+  background-color: #f1f5f9;
+}
+
+.home-icon {
+  color: red;
+}
+
+.trending-icon {
+  color: red;
+}
+.saved-video-icon {
+  color: red;
+}
+.gaming-icon {
+  color: red;
+}
+
+.dark-mode-active-btn {
+  background-color: #383838;
+  color: #ffffff;
+}

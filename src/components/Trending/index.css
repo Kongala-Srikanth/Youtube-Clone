@@ -1,0 +1,16 @@
+.all-trending-videos-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .sm-device {
+    display: none;
+  }
+
+  .fixed-position-trending {
+    height: 100vh;
+    overflow: auto;
+    padding-top: 30px;
+  }
+}
